@@ -2,7 +2,7 @@ import requests
 import psycopg2
 import psycopg2.extras
 import datetime
-import config
+import config #config.py stores the postgres credentials and the api key
 
 def populate_etf(response, etfid):
     etf = response.json()['profile'][0]
