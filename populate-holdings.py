@@ -31,11 +31,7 @@ print(cursor.fetchall())
 
 ark_symbols = ['ARKK', 'ARKQ', 'ARKW', 'ARKG', 'ARKF', 'PRNT', 'IZRL']
 ark_symbols_single = ['ARKK']
-# base_url = 'https://arkfunds.io/api/v1/'
-# etf_profile = 'etf/profile?symbol='
-# etf_holding = 'etf/holdings?symbol='
-# etf_trades = 'etf/trades?symbol='
-# stock_profile = 'stok/profile?symbol='
+
 
 holding_url = 'https://arkfunds.io/api/v1/etf/holdings'
 
